@@ -44,7 +44,7 @@ async function bootstrap() {
   const app: INestApplication = await NestFactory.create(AppModule, server, {});
 
   const document = SwaggerModule.createDocument(app, options);
-  fs.writeFileSync('../swagger-document.json', JSON.stringify(document));
+  fs.writeFileSync('../open-api-schema.json', JSON.stringify(document));
   SwaggerModule.setup('/swagger', app, document);
 
   await app.listen(3000);

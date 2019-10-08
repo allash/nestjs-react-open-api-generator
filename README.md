@@ -1,9 +1,10 @@
 # dto generator demo app
 
-## install open api generator
+## generate custom template
 
 ```bash
-brew install openapi-generator
+cd codegen/scripts
+./generate-new-template.sh
 ```
 
 ## run server
@@ -22,9 +23,9 @@ yarn install
 yarn local
 ```
 
-## update dto
+## update open api schema template
 
 ```bash
 cd frontend
-yarn generate-dto
+yarn codegen
 ```
