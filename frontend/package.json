@@ -11,7 +11,7 @@
     "react-dom": "^16.10.1",
     "react-scripts": "3.1.2",
     "typescript": "3.6.3",
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "tslint": "^5.7.0",
     "tslint-config-prettier": "^1.10.0",
     "tslint-react": "^3.2.0"
